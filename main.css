@@ -1,0 +1,17 @@
+#current_word{
+    margin: 2.5% 7.5%;
+    width: 85%;
+    font-size: 33px;
+    border-style:solid;
+    border-color:grey;
+}
+
+#word_input {
+    margin: 0% 27.5% 1.5% 27.5%;
+    width: 45%;
+    height: 50px;
+    border: 2px solid grey;
+    font-size: 25px;
+    border-radius: 6px;
+}
+

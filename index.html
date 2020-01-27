@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Speed King</title>
+        <meta name="description" content="An interactive getting started guide for Brackets.">
+        <link rel="stylesheet" href="main.css">
+        <script src = "main.js"> </script>
+    </head>
+    <body>
+    <h1 style="text-align:center; color: blue;"> A Typing Test for Fun!</h1>
+    <p id = "current_word"> Hello </p>
+    <input type = "text" placeholder = "Start" id = "word_input" oninput="start_timer()" onkeydown ="compare(event)" autofocus>
+    <p id="result"> </p>
+    <p id="num"> </p>
+    <!--
+    <h3> This is what you entered:</h3>
+    <p id="entered"> </p>
+    <h3> And this is the answer: </h3>
+    <p id="correct"> </p>
+    -->
+    </body>
+</html>
